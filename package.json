@@ -1,0 +1,24 @@
+{
+  "name": "weatherapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run build:css && nodemon ./bin/www",
+    "build:css": "postcss public/stylesheets/tailwind.css -o public/stylesheets/style.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.7",
+    "postcss": "^8.2.6",
+    "postcss-cli": "^8.3.1",
+    "request": "^2.88.2",
+    "tailwindcss": "^2.0.3"
+  }
+}
